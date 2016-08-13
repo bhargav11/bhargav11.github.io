@@ -32,18 +32,23 @@ behavior="scroll">
 
  <marquee direction="right">my text is moving</marquee>
 
-<div class="tabs">
-    <ul class="tab-links">
-        <li class="active"><a href="#Favorite Things to Do">Tab #1</a></li>
-        <li><a href="#Play BasketBall">Tab #2</a></li>
-        <li><a href="#Golf">Tab #3</a></li>
-        <li><a href="#Videogames">Tab #4</a></li>
-    </ul>
- 
-    <div class="tab-content">
-        <div id="Favorite Things to Do" class="tab active">
-            <p> I have many things that I like to do some of which include playing basketball, golf and Video Games</p>
-            <p> </p></p>
-        </div>
- 
-        
+<ul class="tab">
+  <li><a href="#" class="tablinks" onclick="openCity(event, 'London')">London</a></li>
+  <li><a href="#" class="tablinks" onclick="openCity(event, 'Paris')">Paris</a></li>
+  <li><a href="#" class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</a></li>
+</ul>
+
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p> 
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
