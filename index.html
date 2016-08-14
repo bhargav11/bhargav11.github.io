@@ -23,11 +23,129 @@ behavior="scroll">
 
 Hello. My name is Bhargav Singaraju. I am going to be a Senior at South Brunswick High school. I have lived in New Jersey for all of my life. I currently Plan on going to Rutgers University
 
-<marquee scrollamount="10"
-direction="right"
-behavior="scroll">  
-<br> :) <br>
-<div class="_uX kno-fb-ctx" aria-level="3" role="heading" data-hveid="37" data-ved="0ahUKEwixzp7w0a3OAhWEqx4KHeGVBbkQtwcIJSgAMAI"><div class="_XWk">Bhargav Singaraju</div><div class="_Tfc _j0k">Aug 6, 2016–<br></div></div>
- />
-</marquee>
+<html>
+<style>
+body {font-family: "Lato", sans-serif;}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+</style>
+<body>
+
+<p>Click on the links inside the tabbed menu:</p>
+
+<ul class="tab">
+  <li><a href="#" class="tablinks" onclick="openCity(event, 'London')">Activites</a></li>
+  <li><a href="#" class="tablinks" onclick="openCity(event, 'Paris')">College</a></li>
+  <li><a href="#" class="tablinks" onclick="openCity(event, 'Tokyo')">Who am I?</a></li>
+</ul>
+
+<div id="London" class="tabcontent">
+  <h3>Bhargav's Activites</h3>
+  <p> 
+I have a passion for helping people in need and am a volunteer at the Kendall Park first aid Squad. I also have participated in various community programs during my time at the squad.
+
+<html>
+<body>
+
+<p><a href="http://www.kpfars.org/#"><h2>Visit the Kendall Park first Aid Squad Webpage</h2></a></p>
+
+I am also a volunteer for the South Brunswick Public Library where i tutor students ranging form subjects from Math, English, Science, Social Studies, and yes even the Dreaded Spanish....
+
+<p><a href="http://www.sbpl.info/services-2/homework-help/"><h2>Need Homework Help?</h2></a></p>
+</body>
+</html>
+</p>
+</div>
+
+
+<div id="Paris" class="tabcontent">
+  <h3>Rutgers</h3>
+  <p>There is a Very Good chance that I will end up going to Rutgers due to its Computer Engineering program and because of the major research opportunities available to students. From Biorobotics to Nanotechnology, the options are unlimited.
+
+<html>
+<body>
+
+<p><a href="http://www.ece.rutgers.edu/research_areas"><h2>Research Areas</h2></a></p>
+
+</body>
+</html>
+
+</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Bhargav Singaraju</h3>
+  <p> A rising Senior at South Brunswick High school and a person with a passion to learn. 
+
+
+<h3> Feel free to visit my Prezi below: </h3>
+
+<html>
+<body>
+
+<p><a href="https://prezi.com/xiw_m6gee0a2/gathering-blue/"><h2>More About Me</h2></a></p>
+
+</body>
+</html> 
+
+</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+     
+</body>
+</html>
 
