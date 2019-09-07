@@ -1,201 +1,770 @@
 <!DOCTYPE html>
- 
-<head> <h1> Welcome User</h1> </head>
+<html lang="en">
 
-<h2>
- <marquee scrollamount="5"
-direction="right"
-behavior="scroll"> <br> You are Now Visiting the Webpage of Bhargav Singaraju <br> </marquee> </h2>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Personal website">
+  <meta name="keywords" content="personal website">
+	
 
-<body bgcolor="#DEB887">
+	<title>Sukhjit Singh </title>
 
-<html>
-<style>
-body {font-family: "Lato", sans-serif;}
+  <!-- Web Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap core CSS -->
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+	<!-- Font Awesome CSS -->
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
+	<!-- Animate css -->
+  <link href="assets/css/animate.css" rel="stylesheet">
+  <!-- Magnific css -->
+	<link href="assets/css/magnific-popup.css" rel="stylesheet">
+	<!-- Custom styles CSS -->
+	<link href="assets/css/style.css" rel="stylesheet" media="screen">
+  <!-- Responsive CSS -->
+  <link href="assets/css/responsive.css" rel="stylesheet">
 
-ul.tab {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #00800;
-}
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
 
-/* Float the list items side by side */
-ul.tab li {float: left;}
+  <link rel="shortcut icon" href="assets/images/favicon-16x16.png">
 
-/* Style the links inside the list items */
-ul.tab li a {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-}
+</head>
 
-/* Change background color of links on hover */
-ul.tab li a:hover {
-    background-color: #FFFF00;
-}
-
-/* Create an active/current tablink class */
-ul.tab li a:focus, .active {
-    background-color: #ccc;
-}
-
-/* Style the tab content */
-.tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-}
-</style>
 <body>
+	<!-- Preloader -->
+	<div id="tt-preloader">
+		<div id="pre-status">
+			<div class="preload-placeholder"></div>
+		</div>
+	</div>
 
-<p>Click on the links inside the tabbed menu:</p>
+	<!-- Home Section -->
+	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+        <header class="v-header container">
+        <img src="assets/images/circuit.jpg" id="videosubstitute" alt="Full screen background video">
+            <div class="fullscreen-video-wrap"> 
+                 
+            <video src="assets/images/stock-footage-flying-over-a-futuristic-circuit-board-with-moving-electrons-ending-on-the-cpu-transparent-blue.webm" autoplay="true" loop="true" muted="true"></video>
+        </div>
+            
+        <div id="fullScreenDiv"></div>
+            </header>
+        <div class="intro">
+           <h1>Sukhjit <span>Singh</span></h1>
+			<div class="intro-sub"><h2>Aspiring Electrical Engineer</h2></div>
+			<p><br></p>
+      <div class="social-icons">
+        <ul class="list-inline">
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/sukhjit-singh-68006413b/"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/sukhjitsingh98"><i class="fa fa-github"></i></a></li>
+        </ul>
+      </div> <!-- /.social-icons -->
+		</div>
 
-<ul class="tab">
-  <li><a href="#" class="tablinks" onclick="openCity(event, 'London')">Outside Activities</a></li>
-  <li><a href="#" class="tablinks" onclick="openCity(event, 'NewYork')">Undergraduate Activities</a></li>
-  <li><a href="#" class="tablinks" onclick="openCity(event, 'Paris')">College</a></li>
-  <li><a href="#" class="tablinks" onclick="openCity(event, 'Tokyo')">Who am I?</a></li>
+		<div class="mouse-icon">
+			<div class="wheel"></div>
+		</div>
+        
+	</section><!-- End Home Section -->
+
+
+
+
+	<!-- Navigation -->
+	<header class="header">
+		<nav class="navbar navbar-custom" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><!--<img src="assets/images/logo.png" alt="">--><h2>Sukhjit Singh</h2></a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="custom-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#resume">Resume</a></li>
+						<li><a href="#skills">Skills</a></li>
+						<li><a href="#works">Projects</a></li>
+						<!--<li><a href="#blog">Blog</a></li>-->
+            <li><a href="#contact">Contact</a></li>
+					</ul>
+				</div>
+			</div><!-- .container -->
+		</nav>
+	</header><!-- End Navigation -->
+
+
+    <!-- About Section -->
+    <section id="about" class="about-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">About Me</h2>
+
+        <div class="row">
+
+          <div class="col-md-4 col-md-push-8">
+            <div class="biography">
+              <div class="myphoto">
+                <img src="assets/images/Photo%20Jun%2013,%203%2022%2039%20PM%20-%20Copy.jpg" alt="">
+              </div>
+              <ul>
+                <li><strong>Name:</strong> Sukhjit Singh</li>
+                <li><strong>Education:</strong> Rutgers University</li>
+                <li><strong>Major:</strong> Electrical Engineering</li>
+                <li><strong>Email:</strong> ssukhjit1998@gmail.com</li>
+              </ul>
+            </div>
+          </div> <!-- col-md-4 -->
+
+          <div class="col-md-8 col-md-pull-4">
+            <div class="short-info wow fadeInUp">
+              <h3>Objective</h3>
+              <p>An opportunity to work and upgrade oneself, as well as being involved in an organization that believes in gaining a competitive edge and giving back to the community. I'm presently expanding my solid experience in Electrical Engineering. I would like to obtain a challenging position that would best utilize obtained knowledge and academic experience in engineering within a professional environment.</p>
+            </div>
+
+            <!--<div class="short-info wow fadeInUp">
+              <h3>What I Do ?</h3>
+              <p>I have been working as a web interface designer since. I have a love of clean, elegant styling, and I have lots of experience in the production of CSS3 and HTML5 for modern websites. I loving creating awesome as per my clients’ need. I think user experience when I try to craft something for my clients. Making a design awesome.</p>
+
+              <ul class="list-check">
+                <li>User Experience Design</li>
+                <li>Interface Design</li>
+                <li>Product Design</li>
+                <li>Branding Design</li>
+                <li>Digital Painting</li>
+                <li>Video Editing</li>
+              </ul>
+            </div>-->
+
+       
+            <div class="download-button">
+              <a class="btn btn-info btn-lg" href="#contact"><i class="fa fa-paper-plane"></i>Send me message</a>
+              <a class="btn btn-primary btn-lg" href="assets/files/sukhjitsinghresume.docx"><i class="fa fa-download"></i>download my resume</a>
+            </div>
+          </div>
+
+
+        </div> <!-- /.row -->
+      </div> <!-- /.container -->
+    </section><!-- End About Section -->
+
+
+ 
+    <!-- /.Video Section -->
+
+
+    <!-- Resume Section -->
+    <section id="resume" class="resume-section section-padding">
+        <div class="container">
+            <h2 class="section-title wow fadeInUp">Resume</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>Education</h3>
+                    </div>
+                    <div class="resume">
+                        <ul class="timeline">
+                            <li>
+                                <div class="posted-date">
+                                    <span class="month">2017-Present</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Bachelor in Engineering</h3>
+                                            <span>Major: Electrical Engineering || Minor: Computer Science <p>Rutgers University, New Brunswick, NJ 07008</p></span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>I am currently studying Electrical Engineering at Rutgers University</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                    <span class="month">Sept 2013- June 2017</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Secondary Education</h3>
+                                            <span>Carteret High School, Carteret, New Jersey 07008</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p><b>Activities and Organizations:</b> National Honor Society, Math and Engineering Club, Digital Technology Club<br>
+                                            <b>Awards and Honors:</b> Moody's Mega Math Contest Semifinalist, National Bridge Design Contest Finalist, Kean University iSTEM Contest Champion</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /row -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="resume-title">
+                        <h3>Experience</h3>
+                    </div>
+                    <div class="resume">
+                        <ul class="timeline">
+                            <li>
+                                <div class="posted-date">
+                                  <span class="month">May 2018 - Present</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Research Assistant</h3>
+                                            <span>Mazzeo Research Group, New Brunswick, NJ</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>Research in cable-driven robotics using MathWorks based Simulink libraries for modeling and simulation<br>
+                                                Designed a control system for a paper-based walking robot.<br>
+                                            </p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="posted-date">
+                                  <span class="month">Sept 2017 -Present</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Electronics Lab Technician</h3>
+                                            <span>Rutgers University, New Brunswick, NJ</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>Perform sample accessioning and assist with the maintenance of electrical engineering laboratory facilities and instruments<br></p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+
+                            <li>
+                                <div class="posted-date">
+                                  <span class="month">May 2017 - Present</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>Database Manager</h3>
+                                            <span>Badwals Enterprises LLC, Woodbridge, NJ</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>Developed an Android app to scan, store, and track inventory data, reducing the processing time by 70%
+                                            </p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div><!-- /row -->
+        </div><!-- /.container -->
+    </section><!-- End Resume Section -->
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Skills</h2>
+
+       <!-- <div class="row">
+          <div class="col-md-6">-->
+          <div class="skill-chart text-center">
+          <h3>Technical</h3>
+        </div>
+        <div class="row more-skill text-center">
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="100" data-color="2ecc71">
+                    <span class="percent"></span>
+                    <div class="chart-text wow fadeInUp">
+                        <img src="assets/images/java_logo.png" height="120" width="90" alt="">
+                        <span><b>Java</b></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="68" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text wow fadeInUp">
+                        <img src="assets/images/Matlab_Logo.png" alt="" width="112.5" height="120">
+                        <span><b>MATLAB</b></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="100" data-color="e74c3c">
+                    <span class="percent"></span>
+                    <div class="chart-text wow fadeInUp">
+                        <img src="assets/images/office.png" height="120" width="90" alt="">
+                        <span><b>Microsoft Office</b></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="100" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text wow fadeInUp">
+                        <img src="assets/images/autocad.png" height="120" width="90" alt="">
+                        <span><b>Autocad</b></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="68" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text wow fadeInUp">
+                         <img src="assets/images/newhtml.png" height="120" width="90" alt="">
+                        <span><b>HTML + CSS</b></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" >
+                    <div class="chart-text wow fadeInUp">
+                        <img src="assets/images/python-logo2.png" height="150" alt="">
+                        <span><b>Python</b></span>
+                    </div>
+                </div>
+            </div>
+           
+            
+        </div>
+            
+          <!--</div><!-- /.col-md-6 -->
+
+        <!--</div><!-- /.row -->
+
+        <div class="skill-chart text-center">
+          <h3>Languages</h3>
+        </div>
+          
+        <div class="row more-skill text-center">
+             <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="68" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text wow fadeInUp">
+                        <!--<img src="assets/images/Matlab_Logo.png" alt="" width="112.5" height="120">-->
+                        <span><b></b></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="100" data-color="e74c3c">
+                    <span class="percent"></span>
+                    <div class="chart-text wow fadeInUp">
+                        <img src="assets/images/ABC2.png" height="120" width="90" alt="">
+                        <span><b>English</b></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="100" data-color="2ecc71">
+                    <span class="percent"></span>
+                    <div class="chart-text wow fadeInUp">
+                        <img src="assets/images/punjabi2.png" height="120" width="90" alt="">
+                        <span><b>Punjabi</b></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="100" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text wow fadeInUp">
+                        <img src="assets/images/hindi2.png" height="120" width="90" alt="">
+                        <span><b>Hindi</b></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="68" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text wow fadeInUp">
+                         <img src="assets/images/urdu2.png" height="120" width="90" alt="">
+                        <span><b>Urdu</b></span>
+                    </div>
+                </div>
+            </div>
+            <!--<div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" >
+                    <div class="chart-text wow fadeInUp">
+                        <img src="assets/images/python.png" height="150" alt="">
+                        <span><b>Python</b></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-2">
+              <div class="chart" data-percent="68" data-color="3498db">
+                    <span class="percent"></span>
+                    <div class="chart-text wow fadeInUp">
+                        <img src="assets/images/Matlab_Logo.png" alt="" width="112.5" height="120">
+                        <span><b>MATLAB</b></span>
+                    </div>
+                </div>
+            </div>-->
+        </div>
+
+      </div><!-- /.container -->
+    </section><!-- End Skills Section -->
+
+
+    <!-- Works Section -->
+    <section id="works" class="works-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Projects</h2>
+        <div class="resume-title">
+                        <!--<h3>Coming Soon</h3><-->
+                    </div>
+
+        <!--<ul class="list-inline" id="filter">
+            <li><a class="active" data-group="all">All</a></li>
+            <li><a data-group="design">Design</a></li>
+            <li><a data-group="web">Web</a></li>
+            <li><a data-group="interface">Interface</a></li>
+            <li><a data-group="identety">Identity</a></li>
+        </ul>
+        -->
+          
+        
+        <div class="row">
+          <div id="grid">
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "interface"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/Projects/GPA%20Calc.PNG"><i class="fa fa-search-plus"></i></a>
+                    <a href="https://github.com/sukhjitsingh98/Rutgers-GPA-Calc"><i class="fa fa-link"></i></a>       
+                  </div><!-- /.links -->
+          
+                  
+                    <img src="assets/images/Projects/GPA%20Calc.PNG" alt="image">  
+                  <div class="portfolio-info">
+                    <h3>Rutgers GPA Calculator</h3>
+                  </div><!-- /.portfolio-info --> 
+          
+                </div><!-- /.portfolio -->
+             </div><!-- /.portfolio-bg -->
+            </div><!-- /.portfolio-item -->
+            
+          
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "interface"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/Projects/Main%20Screen.PNG"><i class="fa fa-search-plus"></i></a>
+                    <a href="https://github.com/sukhjitsingh98/barcodescanner"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+          
+                  <img src="assets/images/Projects/Main%20Screen.PNG" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Barcode Scanner</h3>
+                  </div><!-- /.portfolio-info -->
+          
+                </div><!-- /.portfolio -->
+          
+              </div><!-- /.portfolio-bg -->
+          
+            </div><!-- /.portfolio-item -->
+          <!--
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "interface"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-3.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+          <!--
+                  <img src="assets/images/works/portfolio-3.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Portfolio Title</h3>
+                  </div><!-- /.portfolio-info -->
+          <!--
+                </div><!-- /.portfolio -->
+          <!--
+              </div><!-- /.portfolio-bg -->
+          <!--
+            </div><!-- /.portfolio-item -->
+          <!--
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-4.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+          <!--
+                  <img src="assets/images/works/portfolio-4.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Portfolio Title</h3>
+                  </div><!-- /.portfolio-info -->
+          <!--
+                </div><!-- /.portfolio -->
+          <!--
+              </div><!-- /.portfolio-bg -->
+          <!--
+            </div><!-- /.portfolio-item -->
+          <!--
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-5.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+          <!--
+                  <img src="assets/images/works/portfolio-5.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Portfolio Title</h3>
+                  </div><!-- /.portfolio-info -->
+          <!--
+                </div><!-- /.portfolio -->
+          <!--
+              </div><!-- /.portfolio-bg -->
+          <!--
+            </div><!-- /.portfolio-item -->
+          <!--
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-6.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+          <!--
+                  <img src="assets/images/works/portfolio-6.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Portfolio Title</h3>
+                  </div><!-- /.portfolio-info -->
+          <!--
+                </div><!-- /.portfolio -->
+          <!--
+              </div><!-- /.portfolio-bg -->
+          <!--
+            </div><!-- /.portfolio-item -->
+          <!--
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "web"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-7.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+          <!--
+                  <img src="assets/images/works/portfolio-7.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Portfolio Title</h3>
+                  </div><!-- /.portfolio-info -->
+          <!--
+                </div><!-- /.portfolio -->
+          <!--
+              </div><!-- /.portfolio-bg -->
+          <!--
+            </div><!-- /.portfolio-item -->
+          <!--
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "design"]'>
+              <div class="portfolio-bg">
+                <div class="portfolio">
+                  <div class="tt-overlay"></div>
+                  <div class="links">
+                    <a class="image-link" href="assets/images/works/portfolio-8.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a href="#"><i class="fa fa-link"></i></a>                          
+                  </div><!-- /.links -->
+          <!--
+                  <img src="assets/images/works/portfolio-8.jpg" alt="image"> 
+                  <div class="portfolio-info">
+                    <h3>Portfolio Title</h3>
+                  </div><!-- /.portfolio-info -->
+               <!-- </div><!-- /.portfolio -->
+              <!--</div><!-- /.portfolio-bg -->
+            <!--</div><!-- /.portfolio-item -->
+          <!--</div><!-- /#grid -->
+        <!--</div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- End Projects Section -->
+
+
+    <!-- Facts Section -->
+    <section id="facts" class="facts-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+      <div class="tt-overlay-bg">
+        <div class="container">
+          <!--<div class="row">
+            <div class="col-md-12">
+              <div class="count-wrap">
+                <div class="col-sm-3 col-xs-6">
+                  <i class="fa fa-flask"></i>
+                  <h3 class="timer">7</h3>
+                  <p>Years of Experience</p>
+                </div>
+                <div class="col-sm-3 col-xs-6"> 
+                  <i class="fa fa-thumbs-up"></i>
+                  <h3 class="timer">651</h3>                
+                  <p>Projects Done</p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                  <i class="fa fa-users"></i>
+                  <h3 class="timer">251</h3> 
+                  <p>Happy Clients</p>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                  <i class="fa fa-trophy"></i>
+                  <h3 class="timer">5</h3> 
+                  <p>Awards Won</p>
+                </div>
+              </div><!-- /count-wrap -->
+            <!--</div><!-- /.col-md-12 -->
+          </div><!-- /.row -->
+        <!--</div><!-- /.container -->
+      </div>
+    </section> <!-- End Facts Section --> 
+
+    <!-- Hire Section -->
+    <!--<section class="hire-section text-center" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
+      <div class="hire-section-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>I'm available for freelance project</h2>
+              <a href="#" class="btn btn-default">Get Hired</a>
+            </div><!-- /.col-md-12 -->
+         <!-- </div><!-- /.row -->
+       <!-- </div><!-- /.container -->
+      <!--</div><!-- /.hire-section-bg -->
+    <!--</section><!-- End Hire Section -->
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section section-padding">
+      <div class="container">
+        <h2 class="section-title wow fadeInUp">Get in touch</h2>
+
+        <div class="row">
+          <div class="col-md-6">
+              <h3>Send me a message</h3>
+            <div class="contact-form">
+              <strong>Coming Soon</strong>
+              <form name="contact-form" id="contactForm" action="sendemail.php" method="POST">
+
+                <div hidden class="form-group">
+                  <label for="name">Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required="">
+                </div>
+
+                <div hidden class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" name="email" class="form-control" id="email" required="">
+                </div>
+
+                <div hidden class="form-group">
+                  <label for="subject">Subject</label>
+                  <input type="text" name="subject" class="form-control" id="subject">
+                </div>
+
+                <div hidden class="form-group">
+                  <label for="message">Message</label>
+                  <textarea name="message" class="form-control" id="message" rows="5" required=""></textarea>
+                </div>
+
+                 <!--<button type="submit" name="submit" class="btn btn-primary">Send Message</button>-->
+              </form>
+            </div><!-- /.contact-form -->
+          </div><!-- /.col-md-6 -->
+
+          <div class="col-md-6">
+            <div class="row center-xs">
+
+              <div class="col-sm-6">
+                <i class="fa fa-mobile"></i>
+                <div class="contact-number">
+                  <strong>Contact</strong>
+                  ssukhjit1998@gmail.com
+                </div>
+              </div>
+            </div>
+
+          <div hidden class="row">
+            <div class="col-sm-12">
+              <div class="location-map">
+                <div hidden id="mapCanvas" class="map-canvas"></div>
+              </div>
+            </div>
+          </div>
+
+          </div>
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+    </section><!-- End Contact Section -->
+
+
+	<!-- Footer Section -->
+    <footer class="footer-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="copyright text-center">
+              <p>&copy; By Sukhjit Singh 2019. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer><!-- End Footer Section -->
+
+
+	<!-- Scroll-up -->
+	<div class="scroll-up">
+		<a href="#home"><i class="fa fa-angle-up"></i></a>
+	</div>
+
+	<!-- Javascript files -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/jquery.sticky.js"></script>
+  <script src="assets/js/smoothscroll.js"></script>
+	<script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/jquery.countTo.js"></script>
+  <script src="assets/js/jquery.inview.min.js"></script> 
+  <script src="assets/js/jquery.easypiechart.js"></script>
+  <script src="assets/js/jquery.shuffle.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
   
-</ul>
-
-<div id="London" class="tabcontent">
-  <h3>Bhargav's Activites</h3>
-  <p> 
-I have a passion for helping people in need and am a volunteer at the Kendall Park first aid Squad.
-<html>
-<body>
-
-<h2>Kendall Park First Aid Squad</h2>
-<img src="KendallPark.jpg" alt="Mountain View" style="width:304px;height:228px;">
-
-</body>
-</html>
- 
-
-<p><a href="http://www.kpfars.org/#"><h2>Visit the Kendall Park first Aid Squad Webpage</h2></a></p>
-
-I am also a volunteer for the South Brunswick Public Library where i tutor students ranging form subjects from Math, English, Science, Social Studies, and Spanish
-<html>
-<body>
-
-<h2>South Brunswick Public Library</h2>
-<img src="SBPL.jpg" alt="Mountain View" style="width:304px;height:228px;">
-
-</body>
-</html>
-<p><a href="http://www.sbpl.info/services-2/homework-help/"><h2>Need Homework Help?</h2></a></p>
-</body>
-</html>
-</p>
-</div>
-
-<div id="NewYork" class="tabcontent">
-  <h3>Bhargav's Undergraduate Activities</h3>
- <h4>Winlab Summer Research</h4>
-  <p> 
-
-<html>
-<body>
-
-<h2>Kendall Park First Aid Squad</h2>
-<img src="KendallPark.jpg" alt="Mountain View" style="width:304px;height:228px;">
-
-</body>
-</html>
- 
-
-<p><a href="http://www.kpfars.org/#"><h2>Visit the Kendall Park first Aid Squad Webpage</h2></a></p>
-
-I am also a volunteer for the South Brunswick Public Library where i tutor students ranging form subjects from Math, English, Science, Social Studies, and Spanish
-<html>
-<body>
-
-<h2>South Brunswick Public Library</h2>
-<img src="SBPL.jpg" alt="Mountain View" style="width:304px;height:228px;">
-
-</body>
-</html>
-<p><a href="http://www.sbpl.info/services-2/homework-help/"><h2>Need Homework Help?</h2></a></p>
-</body>
-</html>
-</p>
-</div>
-
-
-<div id="Paris" class="tabcontent">
-  <h3>Rutgers</h3>
-  <p>Rutgers will be my top choice due to the many major research opportunities available to students from Robotics to Nanotechnology.
-  <html>
-<body>
-
-<h2>Rutgers University</h2>
-<img src="Rutgers.jpg" alt="Mountain View" style="width:304px;height:228px;">
-
-</body>
-</html>
-
-
-<html>
-<body>
-
-<p><a href="http://www.ece.rutgers.edu/research_areas"><h2>Research Areas</h2></a></p>
-
-</body>
-</html>
-
-</p>
-</div>
-
-<div id="Tokyo" class="tabcontent">
-  <h3>Bhargav Singaraju</h3>
-  <p> A current Junior at Rutgers School of Engineering with a person with a passion to learn.
-
-<html>
-<body>
-
-<h2>National Honors Society</h2>
-<img src="NHS.jpg" alt="Mountain View" style="width:304px;height:228px;">
-
-</body>
-</html>
-
-<h3> Feel free to visit my Prezi below: </h3>
-
-<html>
-<body>
-
-<p><a href="https://prezi.com/xiw_m6gee0a2/gathering-blue/"><h2>More About Me</h2></a></p>
-
-</body>
-</html> 
-
-</p>
-</div>
-
-
-<script>
-function openCity(evt, cityName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-</script>
-     
+  <script src="assets/js/jquery.fitvids.js"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
+  <script src="assets/js/scripts.js"></script>
 </body>
 </html>
